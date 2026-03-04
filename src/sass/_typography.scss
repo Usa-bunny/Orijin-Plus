@@ -1,0 +1,38 @@
+%heading {
+  color: $color-secondary;
+  font-family: urbanist, Arial, sans-serif;
+}
+
+.heading-1 {
+  @extend %heading;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.heading-2 {
+  @extend %heading;
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.heading-3 {
+  @extend %heading;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.heading-4 {
+  @extend %heading;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+%text {
+  font-family: urbanist, Arial, sans-serif;
+  color: $color-gray-3;
+}
+
+.text-1 {
+  @extend %text;
+  font-size: 1.25rem;
+}

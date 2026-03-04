@@ -1,0 +1,96 @@
+.preview {
+  padding-top: 5rem;
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      max-width: 50rem;
+    }
+  }
+
+  &__content {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    transform: scale(.1);
+  }
+
+  &__card {
+    display: flex;
+    margin: 0 10rem;
+    position: relative;
+
+    &--thumbnail {
+      &-img {
+        width: 25rem;
+      }
+    }
+
+    &--styles {
+      position: relative;
+
+      &-wrapper {
+        position: absolute;
+        top: -0.5rem;
+        left: -1.85rem;
+        height: 26.5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        z-index: 50;
+      }
+
+      &-content {
+        width: 12.2rem;
+        transition: all 1.2s;
+
+        &-active {
+          transform: translateY(-35rem);
+        }
+      }
+
+      &-bottom {
+        width: 12.5rem;
+        position: absolute;
+        left: -.2rem;
+        z-index: 100;
+        transition: all .5s;
+
+        &-active {
+          transform: translateY(-23.5rem);
+        }
+
+        &-scroll {
+          bottom: .3rem;
+        }
+
+        &-popup {
+          top: 25rem;
+        }
+      }
+
+      &-phone {
+        width: 13rem;
+        position: absolute;
+        top: -0.8rem;
+        left: -2.3rem;
+        z-index: 100;
+      }
+    }
+
+    &--punch-hole {
+      background-color: black;
+      width: 4.2rem;
+      height: 1.2rem;
+      border-radius: 2rem;
+      position: absolute;
+      top: .5rem;
+      left: 4rem;
+      z-index: 100;
+    }
+  }
+}

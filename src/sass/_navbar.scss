@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-background-blue;
+  padding: 0 5rem;
+  min-height: 6rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  &__menu {
+    display: flex;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+
+    &--item {
+      margin: 0 1rem;
+    }
+
+    &--text {
+      font-weight: 600;
+      font-size: 1rem;
+      color: rgb(13, 40, 79);
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  &__dropdown {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &--item {
+      display: flex;
+      align-items: center;
+    }
+
+    &--list {
+      position: absolute;
+      top: 3rem;
+      left: 0;
+      background-color: $color-white;
+      border-radius: 1rem;
+      border: 0.05rem solid $color-gray-1;
+
+      &-child {
+        left: -12rem;
+      }
+    }
+
+    &--link {
+      text-decoration: none;
+      color: $color-secondary;
+      font-weight: 500;
+      display: block;
+      margin: 1rem;
+    }
+
+    &--child {
+      display: flex;
+
+      &-items {
+        margin: .5rem 0;
+      }
+
+      &-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0.8rem 0 0.5rem;
+        padding: 0.9rem 0.8rem 0.9rem 1.2rem;
+        border-radius: 1rem;
+        width: 14rem;
+
+        svg {
+          width: 1.2rem;
+          filter: contrast(0%);
+        }
+
+        &:hover {
+          background-color: #f1f7fd;
+        }
+
+        &-active {
+          background-color: #e4f0fb;
+
+          p {
+            color: $color-secondary !important;
+          }
+        }
+      }
+
+      &-pad {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 1.5rem;
+          height: 1rem;
+          margin-right: 0.5rem;
+        }
+
+        p {
+          color: $color-gray-2;
+          font-weight: 600;
+          font-size: 1rem;
+        }
+      }
+
+      &-line {
+        margin: 0.5rem 0;
+        border: 0.05rem solid $color-gray-1;
+      }
+
+      &-list {
+        width: 15rem;
+      }
+
+      &-link {
+        text-decoration: none;
+        color: $color-gray-2;
+        font-weight: 500;
+        display: block;
+        padding: 1rem 0;
+        margin: 0 0.8rem;
+
+        &-border {
+          border-bottom: 0.05rem solid $color-gray-1;
+        }
+      }
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+  }
+}

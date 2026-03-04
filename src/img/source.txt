@@ -1,0 +1,246 @@
+
+    <div class="w-layout-blockcontainer container-full w-container">
+        <div class="section-content is-s-templates">
+            <div class="template-card">
+                <div class="template-card_thumbnail">
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa37d34c5bfd702248_thumbnail-template-mini-app-1-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa37d34c5bfd702248_thumbnail-template-mini-app-1-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa37d34c5bfd702248_thumbnail-template-mini-app-1-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img mini-app-1"/>
+                </div>
+                <div class="template-card_styles hover-scroll">
+                    <div class="template-card_styles-wrapper">
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688347032db2ad72ccea51b6_sku-page-style-mini-map-version-yellow.png" loading="lazy" alt="template styles content" class="template-card_styles-content"/>
+                        <div class="punch-hole"></div>
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/6883431cc48a1457fc5b9ea2_sku-page-style-mini-map-version-yellow-bottom-menu.png" loading="lazy" alt="bottom bar" class="template-card_styles-bottom"/>
+                    </div>
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-card_thumbnail">
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fab0185cc412cf3a62_thumbnail-template-mini-app-2-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fab0185cc412cf3a62_thumbnail-template-mini-app-2-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fab0185cc412cf3a62_thumbnail-template-mini-app-2-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img"/>
+                </div>
+                <div class="template-card_styles hover-popup">
+                    <div class="template-card_styles-wrapper">
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f63e28ee042e498b5e7_sku-page-mini-app-2-new.png" loading="lazy" alt="template styles content" class="template-card_styles-content"/>
+                        <div class="punch-hole"></div>
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688396b9580a960976686be9_sku-page-mini-app-2-hover.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688396b9580a960976686be9_sku-page-mini-app-2-hover-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688396b9580a960976686be9_sku-page-mini-app-2-hover.png 750w" alt="template styles content" class="template-card_styles-content-hover"/>
+                    </div>
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-card_thumbnail">
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa032eb23a86fe893a_thumbnail-template-mini-app-3-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa032eb23a86fe893a_thumbnail-template-mini-app-3-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa032eb23a86fe893a_thumbnail-template-mini-app-3-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img"/>
+                </div>
+                <div class="template-card_styles hover-popup">
+                    <div class="template-card_styles-wrapper">
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f633624e54b2bb72099_sku-page-mini-app-3-new.webp" loading="lazy" alt="template styles content" class="template-card_styles-content"/>
+                        <div class="punch-hole"></div>
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/6884672916d96d9d69812e6f_sku-page-mini-app-3-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/6884672916d96d9d69812e6f_sku-page-mini-app-3-hover-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/6884672916d96d9d69812e6f_sku-page-mini-app-3-hover.webp 750w" alt="template styles content" class="template-card_styles-content-hover"/>
+                    </div>
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-card_thumbnail">
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061faa266cfc158215085_thumbnail-template-mini-app-4-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061faa266cfc158215085_thumbnail-template-mini-app-4-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061faa266cfc158215085_thumbnail-template-mini-app-4-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img"/>
+                </div>
+                <div class="template-card_styles hover-popup">
+                    <div class="template-card_styles-wrapper">
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f6492c785937248fc15_sku-page-mini-app-4-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f6492c785937248fc15_sku-page-mini-app-4-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f6492c785937248fc15_sku-page-mini-app-4-new.webp 750w" alt="template styles content" class="template-card_styles-content"/>
+                        <div class="punch-hole"></div>
+                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68846729e86dfdfbeda247c0_sku-page-mini-app-4-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68846729e86dfdfbeda247c0_sku-page-mini-app-4-hover-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/68846729e86dfdfbeda247c0_sku-page-mini-app-4-hover.webp 750w" alt="template styles content" class="template-card_styles-content-hover"/>
+                    </div>
+                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="qr_items-wrap">
+        <div tablet="always-open" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e14_database%20icon.svg" loading="lazy" alt="database icon" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Batch lookups</div>
+            </div>
+        </div>
+        <div tablet="always-open" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e21_box.svg" loading="lazy" alt="box" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Competitions</div>
+            </div>
+        </div>
+        <div tablet="always-open" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e29_ClipboardText.svg" loading="lazy" alt="ClipboardText" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Traceability</div>
+            </div>
+        </div>
+        <div tablet="always-open" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e1b_love.svg" loading="lazy" alt="love" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Loyalty Rewards</div>
+            </div>
+        </div>
+        <div tablet="always-open" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e2a_map.svg" loading="lazy" alt="map" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Provenance maps</div>
+            </div>
+        </div>
+        <div tablet="always-open" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e23_ClipboardText2.svg" loading="lazy" alt="ClipboardText2" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Nutritional Info</div>
+            </div>
+        </div>
+        <div tablet="always-open" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e17_Truck.svg" loading="lazy" alt="Truck" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Ingredient Tracking</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e2c_Star.svg" loading="lazy" alt="Star" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Reviews</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e19_YoutubeLogo.svg" loading="lazy" alt="YoutubeLogo" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Videos</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e1a_TextAlignLeft.svg" loading="lazy" alt="TextAlignLeft" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Product Description</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e1c_CookingPot.svg" loading="lazy" alt="CookingPot" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Recipes</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e16_UserCircle.svg" loading="lazy" alt="UserCircle" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Social Media Profiles</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e2d_Images.svg" loading="lazy" alt="Images" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Lifestyle Images</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e15_BookOpenText.svg" loading="lazy" alt="BookOpenText" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">News Articles</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e27_Certificate.svg" loading="lazy" alt="Certificate" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Certifications</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e26_compare.svg" loading="lazy" alt="compare" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Product Comparisons</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e20_Recycle.svg" loading="lazy" alt="Recycle" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Recycling Info</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e28_Translate.svg" loading="lazy" alt="Translate" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Auto Translation</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e2b_ImageSquare.svg" loading="lazy" alt="ImageSquare" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Product Images</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e24_indicator.svg" loading="lazy" alt="indicator" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Taste Indicators</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e25_report.svg" loading="lazy" alt="report" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">ESG Reporting</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e18_co2.svg" loading="lazy" alt="co2" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Carbon Tracking</div>
+            </div>
+        </div>
+        <div tablet="hide" class="qr_item">
+            <div class="qr_item-image">
+                <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/678724fc58a175514fe90e22_passport.svg" loading="lazy" alt="passport" class="image-full is-cover"/>
+            </div>
+            <div class="qr_item-body">
+                <div class="text-weight-xbold">Digital Product Passport</div>
+            </div>
+        </div>
+    </div>

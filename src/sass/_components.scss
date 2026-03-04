@@ -1,0 +1,56 @@
+.btn {
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: urbanist, Arial, sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  border-radius: 0.8rem;
+  margin: 0 0.5rem;
+
+  &__outline {
+    background-color: transparent;
+    color: $color-secondary;
+    border: 0.05rem solid $color-secondary;
+    display: flex;
+    align-items: center;
+
+    &-long {
+      padding: 0.7rem 2.5rem;
+    }
+
+    &-short {
+      padding: .9rem 1.5rem;
+    }
+
+    img {
+      width: 1.5rem;
+      margin-right: .5rem;
+    }
+  }
+
+  &__orange {
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    position: relative;
+
+    &-long {
+      padding: 0.7rem 2.5rem;
+    }
+
+    &-short {
+      padding: .9rem 1.5rem;
+    }
+
+    &-label {
+      position: absolute;
+      top: 0.3rem;
+      right: 0.3rem;
+      font-size: 0.55rem;
+      background-color: rgba(255, 255, 255, 0.3);
+      color: rgba(255, 255, 255, 0.8);
+      padding: 0.05rem 0.4rem;
+      border-radius: 2rem;
+    }
+  }
+}

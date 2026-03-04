@@ -1,0 +1,48 @@
+$color-primary: #f07642;
+$color-secondary: #0d284f;
+$color-white: #fff;
+$color-background-blue: rgb(247, 254, 255);
+$color-gray-1: rgba(0, 0, 0, 0.2);
+$color-gray-2: #728ea7;
+$color-gray-3: rgb(87, 101, 121);
+
+// RESPONSIVE BREAKPOINT
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px
+$bp-small: 37.5em; // 600px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: urbanist, Arial, sans-serif;
+
+  // @media only screen and (max-width: $bp-largest) {
+  //     font-size: 50%;
+  // }
+}
+
+body {
+//   background-color: $color-primary;
+    line-height: 1.5;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  width: 100vw;
+}
+
+.hidden {
+  display: none;
+}
