@@ -12,18 +12,55 @@
     }
   }
 
-  &__content {
+  &__container {
     padding-top: 5rem;
     padding-bottom: 5rem;
     display: flex;
+    align-items: center;
     justify-content: center;
-    transform: scale(.1);
+    height: 75vh;
+    overflow: hidden;
+    transform: scale(1);
+  }
+
+  &__content {
+    height: 27rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &:hover {
+      .preview__card {
+        animation-play-state: paused !important;
+        transform: translateX(-1rem);
+      }
+    }
   }
 
   &__card {
     display: flex;
-    margin: 0 10rem;
-    position: relative;
+    position: absolute;
+    left: 100%;
+    transform: translateX(0);
+    transition: all .2s ease-out;
+    animation: autoRun 24s linear infinite;
+
+    &-1 {
+      animation-delay: 0;
+    }
+
+    &-2 {
+      animation-delay: 6s;
+    }
+
+    &-3 {
+      animation-delay: 12s;
+    }
+
+    &-4 {
+      animation-delay: 18s;
+    }
 
     &--thumbnail {
       &-img {
@@ -56,16 +93,16 @@
       &-bottom {
         width: 12.5rem;
         position: absolute;
-        left: -.2rem;
+        left: -0.2rem;
         z-index: 100;
-        transition: all .5s;
+        transition: all 0.5s;
 
         &-active {
           transform: translateY(-23.5rem);
         }
 
         &-scroll {
-          bottom: .3rem;
+          bottom: 0.3rem;
         }
 
         &-popup {
@@ -88,7 +125,7 @@
       height: 1.2rem;
       border-radius: 2rem;
       position: absolute;
-      top: .5rem;
+      top: 0.5rem;
       left: 4rem;
       z-index: 100;
     }

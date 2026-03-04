@@ -39,10 +39,17 @@ body {
   position: relative;
 }
 
-.overlay {
-  width: 100vw;
-}
-
 .hidden {
   display: none;
+}
+
+.slideAnimation {
+  opacity : 0;
+  transform : translateX(100rem);
+  transition : all 2s;
+
+  &-active {
+    opacity : 1;
+    transform : translateX(0);
+  }
 }

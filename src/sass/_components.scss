@@ -26,6 +26,12 @@
       width: 1.5rem;
       margin-right: .5rem;
     }
+
+    &:hover {
+      background-color: $color-secondary;
+      color: $color-white;
+      filter: contrast(80%);
+    }
   }
 
   &__orange {
@@ -51,6 +57,11 @@
       color: rgba(255, 255, 255, 0.8);
       padding: 0.05rem 0.4rem;
       border-radius: 2rem;
+    }
+
+    &:hover {
+      filter: contrast(130%) brightness(90%);
+      color: $color-white;
     }
   }
 }
