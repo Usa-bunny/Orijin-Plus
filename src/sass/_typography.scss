@@ -25,6 +25,23 @@
   @extend %heading;
   font-size: 3rem;
   font-weight: 900;
+  line-height: 1.3;
+}
+
+.heading-5 {
+  @extend %heading;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.heading-6 {
+  @extend %heading;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 %text {
@@ -35,4 +52,10 @@
 .text-1 {
   @extend %text;
   font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.text-2 {
+  @extend %text;
+  font-size: 1.125rem;
 }

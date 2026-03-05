@@ -1,61 +1,229 @@
-
-    <div class="w-layout-blockcontainer container-full w-container">
-        <div class="section-content is-s-templates">
-            <div class="template-card">
-                <div class="template-card_thumbnail">
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa37d34c5bfd702248_thumbnail-template-mini-app-1-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa37d34c5bfd702248_thumbnail-template-mini-app-1-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa37d34c5bfd702248_thumbnail-template-mini-app-1-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img mini-app-1"/>
+<div role="list" class="swiper-wrapper w-dyn-items">
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d35afc3e0ce2d5fb65c4f_testimonial-image-5.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d35afc3e0ce2d5fb65c4f_testimonial-image-5-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d35afc3e0ce2d5fb65c4f_testimonial-image-5.png 520w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d35c065dc4707c657b30d_testimonial-logo-5.png" loading="lazy" alt="The Yoghurt Shop" class="image-full is-w-auto"/>
                 </div>
-                <div class="template-card_styles hover-scroll">
-                    <div class="template-card_styles-wrapper">
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688347032db2ad72ccea51b6_sku-page-style-mini-map-version-yellow.png" loading="lazy" alt="template styles content" class="template-card_styles-content"/>
-                        <div class="punch-hole"></div>
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/6883431cc48a1457fc5b9ea2_sku-page-style-mini-map-version-yellow-bottom-menu.png" loading="lazy" alt="bottom bar" class="template-card_styles-bottom"/>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">“The trackers were a simple tool to share a transparent supply chain and give our consumers confidence in the freshness of our Yoghurt.”</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Vania Dotto</div>
                     </div>
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">The Yoghurt Shop</div>
+                    </div>
                 </div>
             </div>
-            <div class="template-card">
-                <div class="template-card_thumbnail">
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fab0185cc412cf3a62_thumbnail-template-mini-app-2-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fab0185cc412cf3a62_thumbnail-template-mini-app-2-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fab0185cc412cf3a62_thumbnail-template-mini-app-2-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img"/>
-                </div>
-                <div class="template-card_styles hover-popup">
-                    <div class="template-card_styles-wrapper">
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f63e28ee042e498b5e7_sku-page-mini-app-2-new.png" loading="lazy" alt="template styles content" class="template-card_styles-content"/>
-                        <div class="punch-hole"></div>
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688396b9580a960976686be9_sku-page-mini-app-2-hover.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688396b9580a960976686be9_sku-page-mini-app-2-hover-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688396b9580a960976686be9_sku-page-mini-app-2-hover.png 750w" alt="template styles content" class="template-card_styles-content-hover"/>
-                    </div>
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
-                </div>
-            </div>
-            <div class="template-card">
-                <div class="template-card_thumbnail">
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa032eb23a86fe893a_thumbnail-template-mini-app-3-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa032eb23a86fe893a_thumbnail-template-mini-app-3-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061fa032eb23a86fe893a_thumbnail-template-mini-app-3-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img"/>
-                </div>
-                <div class="template-card_styles hover-popup">
-                    <div class="template-card_styles-wrapper">
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f633624e54b2bb72099_sku-page-mini-app-3-new.webp" loading="lazy" alt="template styles content" class="template-card_styles-content"/>
-                        <div class="punch-hole"></div>
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/6884672916d96d9d69812e6f_sku-page-mini-app-3-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/6884672916d96d9d69812e6f_sku-page-mini-app-3-hover-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/6884672916d96d9d69812e6f_sku-page-mini-app-3-hover.webp 750w" alt="template styles content" class="template-card_styles-content-hover"/>
-                    </div>
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
-                </div>
-            </div>
-            <div class="template-card">
-                <div class="template-card_thumbnail">
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061faa266cfc158215085_thumbnail-template-mini-app-4-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 884px) 95vw, 840px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061faa266cfc158215085_thumbnail-template-mini-app-4-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/689061faa266cfc158215085_thumbnail-template-mini-app-4-new.webp 840w" alt="template thumbnail" class="template-card_thumbnail-img"/>
-                </div>
-                <div class="template-card_styles hover-popup">
-                    <div class="template-card_styles-wrapper">
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f6492c785937248fc15_sku-page-mini-app-4-new.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f6492c785937248fc15_sku-page-mini-app-4-new-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/68838f6492c785937248fc15_sku-page-mini-app-4-new.webp 750w" alt="template styles content" class="template-card_styles-content"/>
-                        <div class="punch-hole"></div>
-                        <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68846729e86dfdfbeda247c0_sku-page-mini-app-4-hover.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 750px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/68846729e86dfdfbeda247c0_sku-page-mini-app-4-hover-p-500.webp 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/68846729e86dfdfbeda247c0_sku-page-mini-app-4-hover.webp 750w" alt="template styles content" class="template-card_styles-content-hover"/>
-                    </div>
-                    <img src="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 904px) 95vw, 859px" srcset="https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-500.png 500w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent-p-800.png 800w, https://cdn.prod.website-files.com/674807b035260b81f96be83f/688341bf9387df51abdfc644_iphone-mockup-3-transparent.png 859w" alt="mock up iphone" class="template-card_styles-phone"/>
-                </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
             </div>
         </div>
     </div>
-
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d3555904429732661c000_testimonial-image-4.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d3555904429732661c000_testimonial-image-4-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d3555904429732661c000_testimonial-image-4.png 520w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d355f0f6418ca9598786a_testimonial-logo-4.png" loading="lazy" alt="Fewsters Farm Honey" class="image-full is-w-auto"/>
+                </div>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">“The system was great and made easy tracking of my honey giving that extra touchpoint to share my product story and its genuine authenticity.”</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Kim Fewster</div>
+                    </div>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">Fewsters Farm Honey</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d351ef47212f0fed0842d_testimonial-image-3.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d351ef47212f0fed0842d_testimonial-image-3-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d351ef47212f0fed0842d_testimonial-image-3.png 520w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d35235b60d458863dc520_testimonial-logo-3.png" loading="lazy" alt="ZENKO Superfoods" class="image-full is-w-auto"/>
+                </div>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">“System is simple and easy and drives maximum impact. Combining transparency with connectivity to consumers all in one platform. It is a must have platform for any CPG brand looking to share a story of genuineness and uniqueness.”</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Wouter Duyck</div>
+                    </div>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">ZENKO Superfoods</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d348793c0b1a11fde7102_testimonial-image-1.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d348793c0b1a11fde7102_testimonial-image-1-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d348793c0b1a11fde7102_testimonial-image-1.png 520w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d343e418af7ad25e5a909_testimonial-logo-1.png" loading="lazy" alt="Natural Raw C" class="image-full is-w-auto"/>
+                </div>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">“As an F &amp;B brand we are often very removed from our customers and our customers are very removed from the unique story of the product they hold in their hand. Orijin Plus changes this and makes it simple and easy for us to use.”</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Scott Mendelsohn</div>
+                    </div>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">Natural Raw C</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d2bc781daa85bcd49729a_testimonial-image-2.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d2bc781daa85bcd49729a_testimonial-image-2-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d2bc781daa85bcd49729a_testimonial-image-2.png 520w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/674d3396937227cf14b5fec0_testimonial-logo-2.png" loading="lazy" alt="Naked Life-Non Alcoholic" class="image-full is-w-auto"/>
+                </div>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">“Our journey so far with Orijin has been simple to activate and effective to run. James and the team have been super supportive to help drive trial and awareness of the Orijn concept and we have had great results in market so far.”</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Carl Ryan</div>
+                    </div>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">Naked Life-Non Alcoholic</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e7267a687c5b5913c13509_bigmamas-testimonials.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e7267a687c5b5913c13509_bigmamas-testimonials-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e7267a687c5b5913c13509_bigmamas-testimonials.png 520w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e726cd88aa36b09a6d6c37_bigmamas-logo-testimonials.png" loading="lazy" alt="Big Mama’s" class="image-full is-w-auto"/>
+                </div>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">“Orijin Plus fits perfectly into our connected packaging strategy because it gives us a single, streamlined platform to manage both the functional side, like retail and supply chain requirements, and the consumer-facing side...”</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Ethan Shapiro</div>
+                    </div>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">Big Mama’s</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e7280e1be7f1daf9ff80d2_greenbelly-testimonials.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e7280e1be7f1daf9ff80d2_greenbelly-testimonials-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e7280e1be7f1daf9ff80d2_greenbelly-testimonials.png 520w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/68e383d0e657ece2cad9d1f5_logo-green-belly.png" loading="lazy" alt="Green Belly" class="image-full is-w-auto"/>
+                </div>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">&quot;It is challenging to tell your story in a world flooded with excessive information. Being able to bring our story to every product multiplies our ability to share our story 10,000X.&quot;</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Charles Stewart</div>
+                    </div>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">Green Belly</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div role="listitem" class="swiper-slide w-dyn-item">
+        <div class="testimonial-card">
+            <div class="testimonial-card_image">
+                <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/6926c336ef16ed1ed28f42f6_ian-batt-testimonials.png" loading="lazy" alt="Testimonial User Image" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939px, 100vw" srcset="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/6926c336ef16ed1ed28f42f6_ian-batt-testimonials-p-500.png 500w, https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/6926c336ef16ed1ed28f42f6_ian-batt-testimonials.png 650w" class="image-full is-h-auto"/>
+            </div>
+            <div class="testimonial-card_details">
+                <div class="testimonial-card_company-logo">
+                    <img src="https://cdn.prod.website-files.com/67481b11f32b8fbebe5bb38f/6926c392ef16ed1ed28f5bea_small-things-wine-testimonial-logo.png" loading="lazy" alt="Small Things Wine" class="image-full is-w-auto"/>
+                </div>
+                <div class="testimonial-card_review">
+                    <div class="text-size-medium">“The GS1 2D barcode means one scan can deliver different content depending on the market. For us as an exporter, that’s essential given how many markets we’re in, and knowing it will also work at checkout in the future is a game changer.”</div>
+                </div>
+                <div class="testimonial-card_author">
+                    <div class="testimonial-card_author-name">
+                        <div class="text-weight-black">Ian Batt</div>
+                    </div>
+                    <div class="testimonial-card_author-title">
+                        <div class="text-size-small">Small Things Wine</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card_quotes-icon w-embed">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.3017 39.4616C12.4339 39.4616 11 38.1884 11 35.6421V28.8179C11 26.2716 12.4339 24.9984 15.3017 24.9984H24.8883C27.7561 24.9984 29.1899 26.2716 29.1899 28.8179V35.6421C29.1899 40.0218 28.8417 43.6885 28.1453 46.6423C27.4488 49.63 25.6667 52.0405 22.7989 53.8739C20.7095 55.198 19.0708 55.3338 17.8827 54.2813L15.5475 52.1933C14.0726 50.9032 14.298 49.63 16.2235 48.3738C17.5345 47.525 18.4153 46.4216 18.8659 45.0636C19.3166 43.7055 19.5419 41.8382 19.5419 39.4616H15.3017ZM41.1117 39.4616C38.2439 39.4616 36.8101 38.1884 36.8101 35.6421V28.8179C36.8101 26.2716 38.2439 24.9984 41.1117 24.9984H50.6983C53.5661 24.9984 55 26.2716 55 28.8179V35.6421C55 40.0218 54.6518 43.6885 53.9553 46.6423C53.2588 49.63 51.4767 52.0405 48.6089 53.8739C46.5196 55.198 44.8808 55.3338 43.6927 54.2813L41.3575 52.1933C39.8827 50.9032 40.108 49.63 42.0335 48.3738C43.3445 47.525 44.2253 46.4216 44.676 45.0636C45.1266 43.7055 45.352 41.8382 45.352 39.4616H41.1117Z" fill="#DBECFB"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
 
 
     <div class="qr_items-wrap">

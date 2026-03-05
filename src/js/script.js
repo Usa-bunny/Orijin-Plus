@@ -91,4 +91,4 @@ function wait(element, timer) {
     }, timer * 1000);
   });
 }
-wait(".preview__content", 12);
+wait(".preview__content", 10);
