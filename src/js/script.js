@@ -39,7 +39,7 @@ function dropdownChild() {
     });
   });
 }
-dropdownChild()
+dropdownChild();
 
 function setImage(productSrcArray, interval) {
   const productImg = document.querySelector(".hero__product--img");
@@ -92,3 +92,91 @@ function wait(element, timer) {
   });
 }
 wait(".preview__content", 10);
+
+function slider() {
+  const cards = document.querySelectorAll(".testimonial__card");
+  const btnPrevious = document.querySelector(
+    ".testimonial__swiper--wrapper-prev",
+  );
+  const btnNext = document.querySelector(".testimonial__swiper--wrapper-next");
+  const dotContainer = document.querySelector(
+    ".testimonial__swiper--pagination",
+  );
+  let currentSlide = 0;
+  const maxSlide = cards.length;
+
+  function createDots() {
+    cards.forEach((_, i) =>
+      dotContainer.insertAdjacentHTML(
+        "beforeend",
+        `<button class="dots__dot" data-cards="${i}"></button>`,
+      ),
+    );
+  }
+
+  function activateDots(currentSlide) {
+    document
+      .querySelectorAll(".dots__dot")
+      .forEach((dot) => dot.classList.remove("dots__dot--active"));
+    document
+      .querySelector(`.dots__dot[data-cards="${currentSlide}"]`)
+      .classList.add("dots__dot--active");
+  }
+
+  function goToSlide(slideIndex) {
+    cards.forEach((card, i) => {
+      const offset = (i - slideIndex * 2) * 100;
+      card.style.transform = `translateX(${offset}%)`;
+      if (offset < -100 * maxSlide)
+        card.style.transform = `translateX(${(maxSlide - 1) * 100}%)`;
+      if (offset > 100 * maxSlide)
+        card.style.transform = `translateX(-${(maxSlide - 1) * 100}%)`;
+      if (offset < -100 && i !== slideIndex)
+        card.style.opacity = "0";
+      else card.style.opacity = "1";
+    });
+  }
+
+  function nextSlide() {
+    if (currentSlide === maxSlide - 1) {
+      currentSlide = 0;
+    } else {
+      currentSlide++;
+    }
+    goToSlide(currentSlide);
+    activateDots(currentSlide);
+  }
+
+  function previousSlide() {
+    if (currentSlide === 0) {
+      currentSlide = maxSlide - 1;
+    } else {
+      currentSlide--;
+    }
+    goToSlide(currentSlide);
+    activateDots(currentSlide);
+  }
+
+  function runInfinite(second, reversed = false) {
+    setInterval(() => {
+      if (!reversed) {
+        goToSlide(0);
+        nextSlide();
+      } else if (reversed) {
+        goToSlide(maxSlide - 1);
+        previousSlide();
+      }
+    }, second * 1000);
+  }
+
+  function init() {
+    createDots();
+    activateDots(0);
+    runInfinite(5);
+  }
+  init();
+
+  btnPrevious.addEventListener("click", previousSlide);
+  btnNext.addEventListener("click", nextSlide);
+}
+slider();

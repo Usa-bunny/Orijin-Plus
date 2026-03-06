@@ -59,3 +59,15 @@
   @extend %text;
   font-size: 1.125rem;
 }
+
+.text-3 {
+  @extend %text;
+  font-weight: 900;
+  color: $color-secondary;
+}
+
+.text-4 {
+  @extend %text;
+  font-size: .8rem;
+  color: $color-secondary;
+}
