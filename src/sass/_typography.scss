@@ -75,7 +75,7 @@
 
 .text-4 {
   @extend %text;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: $color-secondary;
 }
 
@@ -89,4 +89,23 @@
   font-weight: 900;
   font-size: 1.5rem;
   color: white;
+}
+
+.text-7 {
+  color: $color-gray-3;
+  text-decoration: none;
+}
+
+.text-8 {
+  color: $color-gray-3;
+  text-decoration: none;
+
+  &-active {
+    color: $color-secondary !important;
+    font-weight: 700;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

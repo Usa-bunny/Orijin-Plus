@@ -1,0 +1,66 @@
+.footer {
+    padding: 0 10rem;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-gap: 2rem;
+    padding-bottom: 5.5rem;
+
+    &--logo {
+      display: flex;
+      grid-gap: 2.5rem;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &-linkedin {
+        display: flex;
+        grid-gap: 0.5rem;
+        align-items: center;
+        justify-content: flex-start;
+        font-weight: 700;
+        color: black;
+
+        svg {
+          width: 1.5rem;
+        }
+      }
+    }
+
+    &--menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: flex-start;
+      grid-gap: 5rem;
+    }
+
+    &--group {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      grid-gap: 0.8rem;
+      max-width: 18rem;
+      min-width: 8rem;
+    }
+
+    &--title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: $color-secondary;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.5rem;
+    border-top: 1px solid #0000001a;
+  }
+}

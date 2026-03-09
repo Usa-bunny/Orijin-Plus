@@ -271,6 +271,65 @@ body {
   font-style: normal;
 }
 
+.footer {
+  padding: 0 10rem;
+}
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  grid-gap: 2rem;
+  padding-bottom: 5.5rem;
+}
+.footer__top--logo {
+  display: flex;
+  grid-gap: 2.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer__top--logo-linkedin {
+  display: flex;
+  grid-gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 700;
+  color: black;
+}
+.footer__top--logo-linkedin svg {
+  width: 1.5rem;
+}
+.footer__top--menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  grid-gap: 5rem;
+}
+.footer__top--group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  grid-gap: 0.8rem;
+  max-width: 18rem;
+  min-width: 8rem;
+}
+.footer__top--title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #0d284f;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -870,6 +929,23 @@ body {
   font-weight: 900;
   font-size: 1.5rem;
   color: white;
+}
+
+.text-7 {
+  color: rgb(87, 101, 121);
+  text-decoration: none;
+}
+
+.text-8 {
+  color: rgb(87, 101, 121);
+  text-decoration: none;
+}
+.text-8-active {
+  color: #0d284f !important;
+  font-weight: 700;
+}
+.text-8:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
