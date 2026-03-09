@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: $color-background-blue;
+  background-color: $color-background-lightblue;
   padding: 0 10rem;
   min-height: 6rem;
   position: sticky;
@@ -40,6 +40,7 @@
     &--item {
       display: flex;
       align-items: center;
+      grid-column-gap: .5rem;
     }
 
     &--list {

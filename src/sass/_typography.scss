@@ -44,6 +44,14 @@
   text-decoration: none;
 }
 
+.heading-7 {
+  @extend %heading;
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.4;
+  color: $color-white;
+}
+
 %text {
   font-family: urbanist, Arial, sans-serif;
   color: $color-gray-3;
@@ -52,7 +60,6 @@
 .text-1 {
   @extend %text;
   font-size: 1.25rem;
-  margin-top: 1rem;
 }
 
 .text-2 {
@@ -70,4 +77,16 @@
   @extend %text;
   font-size: .8rem;
   color: $color-secondary;
+}
+
+.text-5 {
+  @extend %text;
+  font-weight: 700;
+}
+
+.text-6 {
+  @extend %text;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white;
 }

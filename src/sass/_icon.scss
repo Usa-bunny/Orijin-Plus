@@ -1,0 +1,52 @@
+.icon {
+  margin: 2.5rem 10rem 0 10rem;
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+
+    &--link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+
+      img {
+        margin-right: 0.5rem;
+      }
+
+      span {
+        color: $color-secondary;
+        font-weight: 800;
+      }
+    }
+  }
+
+  &__collapse {
+    cursor: pointer;
+  }
+
+  &__hidden {
+    display: none;
+  }
+}
