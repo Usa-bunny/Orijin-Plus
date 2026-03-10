@@ -96,6 +96,7 @@
 
       &--item {
         display: flex;
+        align-items: center;
       }
     }
   }
@@ -131,6 +132,13 @@
       display: flex;
       align-items: center;
       grid-column-gap: 0.5rem;
+
+      @media only screen and (max-width: $bp-large) {
+        svg {
+          width: 1rem;
+          height: 1rem;
+        }
+      }
     }
 
     &--list {

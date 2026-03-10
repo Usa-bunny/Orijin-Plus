@@ -16,7 +16,7 @@
 
   &__content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(35.82rem, 1fr));
     grid-template-rows: auto;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
@@ -27,6 +27,10 @@
 
       @media only screen and (max-width: $bp-medium) {
         order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
       }
 
       img {
@@ -35,6 +39,10 @@
         object-fit: contain;
         z-index: 50;
         position: relative;
+
+        @media only screen and (max-width: $bp-medium) {
+          width: 40rem;
+        }
       }
 
       video {
@@ -50,6 +58,11 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
+
+      @media only screen and (max-width: $bp-medium) {
+        align-items: center;
+        text-align: center;
+      }
 
       &-title {
         margin: 1rem 0;

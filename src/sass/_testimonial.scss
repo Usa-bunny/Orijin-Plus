@@ -11,8 +11,13 @@
     margin: 10rem 5rem;
   }
 
-  @media only screen and (max-width: $bp-largest) {
+  @media only screen and (max-width: $bp-large) {
     margin: 10rem 2.5rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-row-gap: 2.5rem;
   }
 
   &__menu {
@@ -20,6 +25,12 @@
     flex-direction: column;
     width: 23rem;
     grid-gap: 1rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
   }
 
   &__content {
@@ -28,6 +39,10 @@
     height: 100%;
     overflow: hidden;
     position: relative;
+
+    @media only screen and (max-width: $bp-largest) {
+      transform: scale(0.9);
+    }
   }
 
   &__card {
@@ -44,6 +59,11 @@
     z-index: 50;
     transition: all 0.5s ease;
 
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     &--image {
       width: 40%;
     }
@@ -53,6 +73,11 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
+
+      @media only screen and (max-width: $bp-medium) {
+        align-items: center;
+        text-align: center;
+      }
     }
 
     &--logo {
@@ -85,6 +110,11 @@
     bottom: 0;
     left: 0;
 
+    @media only screen and (max-width: $bp-medium) {
+      width: 100%;
+      bottom: -2.5rem;
+    }
+
     &--wrapper {
       display: flex;
 
@@ -100,4 +130,3 @@
     }
   }
 }
-
