@@ -1,5 +1,6 @@
 .icon {
-  margin: 2.5rem 10rem 0 10rem;
+  @extend %padding-global;
+  padding-top: 5rem;
 
   &__menu {
     display: flex;

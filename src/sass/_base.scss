@@ -7,37 +7,54 @@ $color-gray-1: rgba(0, 0, 0, 0.2);
 $color-gray-2: #728ea7;
 $color-gray-3: rgb(87, 101, 121);
 
-// RESPONSIVE BREAKPOINT
-$bp-largest: 75em; // 1200px
-$bp-large: 62.5em; // 1000px
-$bp-medium: 50em; // 800px
-$bp-small: 37.5em; // 600px
+$bp-largest: 1400px;
+$bp-large: 1200px;
+$bp-medium: 1000px;
+$bp-small: 37.5em;
 
 *,
 *::before,
 *::after {
+  box-sizing: border-box; /* Include padding & border in element's total size */
+}
+
+* {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
 html {
-  box-sizing: border-box;
   font-size: 100%;
   font-family: urbanist, Arial, sans-serif;
 
-  // @media only screen and (max-width: $bp-largest) {
-  //     font-size: 50%;
-  // }
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 90%;
+  }
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 85%;
+  }
 }
 
 body {
-//   background-color: $color-primary;
-    line-height: 1.5;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; 
 }
 
 .container {
   position: relative;
+}
+
+%padding-global {
+  padding: 0 10rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    padding: 0 5rem;
+  }
+
+  @media only screen and (max-width: $bp-largest) {
+    padding: 0 2.5rem;
+  }
 }
 
 .hidden {
@@ -45,12 +62,35 @@ body {
 }
 
 .slideAnimation {
-  opacity : 0;
-  transform : translateX(100rem);
-  transition : all 2s;
+  opacity: 0;
+  transform: translateX(100rem);
+  transition: all 2s;
 
   &-active {
-    opacity : 1;
-    transform : translateX(0);
+    opacity: 1;
+    transform: translateX(0);
   }
+}
+
+.dots__dot {
+  border: none;
+  background-color: $color-secondary;
+  opacity: 0.5;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.9rem;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.dots__dot--active {
+  background-color: $color-secondary;
+  width: 1.5rem;
+  border-radius: 0.5rem;
+  opacity: 1;
 }

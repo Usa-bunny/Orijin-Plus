@@ -1,14 +1,104 @@
 .navbar {
+  @extend %padding-global;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: $color-background-lightblue;
-  padding: 0 10rem;
-  min-height: 6rem;
+  min-height: 5rem;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 1000;
+
+  &Mobile {
+    background-color: $color-background-lightblue;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 500;
+
+    &__menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $color-background-lightblue;
+      padding: 0.5rem 2.5rem;
+      position: relative;
+      z-index: 1000;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-color: $color-background-lightblue;
+      padding: 2rem 2.5rem;
+      gap: 1rem;
+      transition: all 1s;
+      transform: translateY(-50rem);
+      opacity: 0;
+
+      &--active {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    &__icon {
+      position: relative;
+
+      &,
+      &::before,
+      &::after {
+        width: 2rem;
+        height: 0.2rem;
+        background-color: rgb(66, 66, 66);
+        border-radius: 0.5rem;
+        display: inline-block;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        transition: all 0.4s;
+      }
+
+      &::before {
+        top: -0.8rem;
+      }
+
+      &::after {
+        top: 0.8rem;
+      }
+
+      &--active {
+        background-color: transparent;
+
+        &::before {
+          transform: rotate(-225deg);
+          top: 0;
+        }
+
+        &::after {
+          transform: rotate(225deg);
+          top: 0;
+        }
+      }
+    }
+
+    &__dropdown {
+      display: flex;
+      flex-direction: column;
+
+      &--item {
+        display: flex;
+      }
+    }
+  }
 
   &__menu {
     display: flex;
@@ -40,7 +130,7 @@
     &--item {
       display: flex;
       align-items: center;
-      grid-column-gap: .5rem;
+      grid-column-gap: 0.5rem;
     }
 
     &--list {
@@ -129,12 +219,12 @@
         color: $color-gray-2;
         font-weight: 600;
         display: block;
-        padding: 1rem 1rem 1rem .6rem;
+        padding: 1rem 1rem 1rem 0.6rem;
         margin: 0 0.8rem;
-        transition: all .5s;
+        transition: all 0.5s;
 
         &:hover {
-          letter-spacing: .01rem;
+          letter-spacing: 0.01rem;
           font-weight: 700;
           color: $color-secondary !important;
         }

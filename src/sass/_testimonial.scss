@@ -1,11 +1,19 @@
 .testimonial {
+  margin: 10rem 10rem;
   display: grid;
   grid-template-columns: 25rem 1fr;
   grid-template-rows: auto;
   grid-column-gap: 5rem;
   grid-auto-columns: 1fr;
-  margin: 10rem 10rem 5rem;
   position: relative;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 10rem 5rem;
+  }
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 10rem 2.5rem;
+  }
 
   &__menu {
     display: flex;
@@ -93,33 +101,3 @@
   }
 }
 
-.dots {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
-.dots__dot {
-  border: none;
-  background-color: $color-secondary;
-  opacity: 0.5;
-  height: 0.5rem;
-  width: 0.5rem;
-  border-radius: 50%;
-  margin-right: 0.9rem;
-  cursor: pointer;
-  transition: all 0.5s;
-
-  &:last-child {
-    margin: 0;
-  }
-}
-
-.dots__dot--active {
-  background-color: $color-secondary;
-  width: 1.5rem;
-  border-radius: 0.5rem;
-  opacity: 1;
-}

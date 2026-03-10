@@ -1,5 +1,7 @@
 .qna {
-  padding: 5rem 10rem;
+  @extend %padding-global;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   &__menu {
     display: flex;
@@ -19,7 +21,7 @@
     position: relative;
 
     &--img {
-      width: 90rem;
+      width: 80rem;
       position: sticky;
       top: 7rem;
 
@@ -42,9 +44,9 @@
       box-shadow: 0 0 4px #19436d1a;
       border: 1px solid #f3f2f1;
       border-radius: 0.75rem;
-      max-height: 5rem;
+      max-height: 4.5rem;
       overflow: hidden;
-      transition: all .5s ease;
+      transition: all 0.5s;
 
       &-header {
         display: flex;

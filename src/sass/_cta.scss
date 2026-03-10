@@ -1,5 +1,7 @@
 .cta {
-  padding: 5rem 10rem;
+  @extend %padding-global;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   %cta {
     background-size: cover;

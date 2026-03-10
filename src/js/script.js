@@ -1,11 +1,11 @@
 "use strict";
 
-function dropdown() {
-  const navbarDropdowns = document.querySelectorAll(".navbar__dropdown");
+function dropdown(element) {
+  const navbarDropdowns = document.querySelectorAll(element);
   navbarDropdowns.forEach((navbarDropdown) => {
-    const button = navbarDropdown.querySelector(".navbar__dropdown--item");
-    const list = navbarDropdown.querySelector(".navbar__dropdown--list");
-    button.addEventListener("click", function () {
+    const item = navbarDropdown.querySelector(`${element}--item`);
+    const list = navbarDropdown.querySelector(`${element}--list`);
+    item.addEventListener("click", function () {
       list.classList.toggle("hidden");
     });
     document.addEventListener("click", function (e) {
@@ -15,18 +15,13 @@ function dropdown() {
     });
   });
 }
-dropdown();
+dropdown(".navbar__dropdown");
+dropdown(".navbarMobile__dropdown");
 
-function dropdownChild() {
-  const navbarDropdownChild = document.querySelector(
-    ".navbar__dropdown--child",
-  );
-  const buttons = navbarDropdownChild.querySelectorAll(
-    ".navbar__dropdown--child-item",
-  );
-  const lists = navbarDropdownChild.querySelectorAll(
-    ".navbar__dropdown--child-list",
-  );
+function dropdownChild(element) {
+  const navbarDropdownChild = document.querySelector(element);
+  const buttons = navbarDropdownChild.querySelectorAll(`${element}-item`);
+  const lists = navbarDropdownChild.querySelectorAll(`${element}-list`);
   buttons.forEach((button, index) => {
     button.addEventListener("click", () => {
       buttons.forEach((button) =>
@@ -39,7 +34,8 @@ function dropdownChild() {
     });
   });
 }
-dropdownChild();
+dropdownChild(".navbar__dropdown--child");
+dropdownChild(".navbarMobile__dropdown--child");
 
 function setImage(productSrcArray, interval) {
   const productImg = document.querySelector(".hero__product--img");
@@ -82,8 +78,8 @@ function cardPopup() {
 }
 cardPopup();
 
-function waitNSlide(element, timer) {
-  const targets = document.querySelectorAll(element);
+function waitNSlide(timer) {
+  const targets = document.querySelectorAll(".preview__content");
   targets.forEach((target) => {
     target.classList.add("slideAnimation");
     setTimeout(() => {
@@ -91,7 +87,7 @@ function waitNSlide(element, timer) {
     }, timer * 1000);
   });
 }
-waitNSlide(".preview__content", 10);
+waitNSlide(10);
 
 function slider() {
   const cards = document.querySelectorAll(".testimonial__card");
@@ -109,7 +105,7 @@ function slider() {
     cards.forEach((_, i) =>
       dotContainer.insertAdjacentHTML(
         "beforeend",
-        `<button class="dots__dot" data-cards="${i}"></button>`,
+        `<button class="dots__dot" data-slides="${i}"></button>`,
       ),
     );
   }
@@ -119,7 +115,7 @@ function slider() {
       .querySelectorAll(".dots__dot")
       .forEach((dot) => dot.classList.remove("dots__dot--active"));
     document
-      .querySelector(`.dots__dot[data-cards="${currentSlide}"]`)
+      .querySelector(`.dots__dot[data-slides="${currentSlide}"]`)
       .classList.add("dots__dot--active");
   }
 
@@ -168,9 +164,20 @@ function slider() {
     }, second * 1000);
   }
 
+  function goToDot() {
+    dotContainer.addEventListener("click", function (e) {
+      const slide = +e.target.closest(".dots__dot").dataset.slides;
+      if (!slide) return;
+      currentSlide = slide;
+      goToSlide(currentSlide);
+      activateDots(currentSlide);
+    });
+  }
+
   function init() {
     createDots();
     activateDots(0);
+    goToDot();
     runInfinite(5);
   }
   init();
@@ -180,32 +187,46 @@ function slider() {
 }
 slider();
 
-function showHideIcons(query) {
+function showMobileEvent(query) {
   const iconsHide = document.querySelectorAll(".icon-hide");
-  const btn = document.querySelector(".icon__collapse");
+  const btnIcon = document.querySelector(".icon__collapse");
+  const navbarMobile = document.querySelector(".navbarMobile");
+  const navbarMobileList = document.querySelector(".navbarMobile__list");
+  const btnToogle = document.querySelector(".navbarMobile__toogle");
+  const icon = document.querySelector(".navbarMobile__icon");
+  const navbar = document.querySelector(".navbar");
 
   function eventHideShow() {
     iconsHide.forEach((icon) => icon.classList.toggle("icon__hidden"));
     if (document.querySelectorAll(".icon__hidden").length)
-      btn.textContent = "See more...";
-    else btn.textContent = "See less...";
+      btnIcon.textContent = "See more...";
+    else btnIcon.textContent = "See less...";
   }
+
+  btnToogle.addEventListener("click", function () {
+    icon.classList.toggle("navbarMobile__icon--active");
+    navbarMobileList.classList.toggle("navbarMobile__list--active");
+  });
 
   window
     .matchMedia(`(max-width: ${query}px)`)
     .addEventListener("change", function (e) {
       if (e.matches) {
-        btn.textContent = "See more...";
+        btnIcon.textContent = "See more...";
         iconsHide.forEach((icon) => icon.classList.add("icon__hidden"));
-        btn.addEventListener("click", eventHideShow);
+        btnIcon.addEventListener("click", eventHideShow);
+        navbar.style.display = "none";
+        navbarMobile.style.display = "block";
       } else if (!e.matches) {
-        btn.textContent = "And much more...";
+        btnIcon.textContent = "And much more...";
         iconsHide.forEach((icon) => icon.classList.remove("icon__hidden"));
-        btn.removeEventListener("click", eventHideShow);
+        btnIcon.removeEventListener("click", eventHideShow);
+        navbar.style.display = "flex";
+        navbarMobile.style.display = "none";
       }
     });
 }
-showHideIcons(1000);
+showMobileEvent(1000);
 
 function expandQNA() {
   const qnaContainer = document.querySelector(".qna__content--list");
