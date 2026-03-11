@@ -10,7 +10,8 @@ $color-gray-3: rgb(87, 101, 121);
 $bp-largest: 1400px;
 $bp-large: 1200px;
 $bp-medium: 1000px;
-$bp-small: 37.5em;
+$bp-small: 700px;
+$bp-smallest: 450px;
 
 *,
 *::before,
@@ -36,7 +37,15 @@ html {
   }
 
   @media only screen and (max-width: $bp-medium) {
-    font-size: 80%;
+    font-size: 75%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 65%;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 60%;
   }
 }
 

@@ -34,6 +34,11 @@
 
       img {
         margin-right: 0.5rem;
+
+        @media only screen and (max-width: $bp-small) {
+          height: 2rem;
+          width: 2rem;
+        }
       }
 
       span {

@@ -26,6 +26,10 @@
         width: 100%;
         text-align: center;
         padding: 4rem 7rem;
+
+        @media only screen and (max-width: $bp-small) {
+          padding: 2rem;
+        }
       }
 
       svg {
@@ -34,6 +38,18 @@
         position: absolute;
         top: 2.5rem;
         left: 4rem;
+
+        @media only screen and (max-width: $bp-medium) {
+          top: 2rem;
+          left: 3rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+          width: 2rem;
+          height: 2rem;
+          top: 0;
+          left: 1rem;
+        }
       }
     }
   }
@@ -48,6 +64,18 @@
     grid-column-gap: 4rem;
     padding: 3.5rem 6rem;
 
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+      background-position: 0 0;
+      padding: 3rem 5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      padding: 1.5rem 2rem;
+      grid-row-gap: 2rem;
+      grid-column-gap: 2rem;
+    }
+
     &--text {
       display: flex;
       flex-direction: column;
@@ -59,10 +87,18 @@
         font-size: 2.5rem;
         width: 40rem;
         line-height: 1.2;
+
+        @media only screen and (max-width: $bp-small) {
+          max-width: 20rem;
+        }
       }
 
       p {
         color: $color-white;
+
+        @media only screen and (max-width: $bp-small) {
+          max-width: 20rem;
+        }
       }
 
       a {

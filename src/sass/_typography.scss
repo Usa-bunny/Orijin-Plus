@@ -26,6 +26,10 @@
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.3;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 2rem;
+  }
 }
 
 .heading-5 {
@@ -34,6 +38,10 @@
   font-weight: 900;
   line-height: 1.2;
   text-decoration: none;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 2rem;
+  }
 }
 
 .heading-6 {

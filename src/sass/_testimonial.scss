@@ -16,8 +16,13 @@
   }
 
   @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: 20rem 1fr;
+    grid-column-gap: 0;
+  }
+
+  @media only screen and (max-width: $bp-small) {
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    grid-row-gap: 2.5rem;
+    justify-content: center;
   }
 
   &__menu {
@@ -27,9 +32,19 @@
     grid-gap: 1rem;
 
     @media only screen and (max-width: $bp-medium) {
+      width: 18rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
       width: 100%;
       text-align: center;
       align-items: center;
+    }
+
+    p {
+      @media only screen and (max-width: $bp-small) {
+        max-width: 20rem;
+      }
     }
   }
 
@@ -60,8 +75,14 @@
     transition: all 0.5s ease;
 
     @media only screen and (max-width: $bp-medium) {
+      height: 20rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
       flex-direction: column;
       align-items: center;
+      height: 100%;
+      width: 100%;
     }
 
     &--image {
@@ -74,7 +95,7 @@
       justify-content: center;
       align-items: flex-start;
 
-      @media only screen and (max-width: $bp-medium) {
+      @media only screen and (max-width: $bp-small) {
         align-items: center;
         text-align: center;
       }
@@ -88,6 +109,10 @@
     &--review {
       color: $color-secondary !important;
       font-style: italic;
+
+      @media only screen and (max-width: $bp-medium) {
+        font-size: 90%;
+      }
     }
 
     &--author {
@@ -98,6 +123,11 @@
       position: absolute;
       top: 0;
       right: 0;
+
+      @media only screen and (max-width: $bp-medium) {
+        top: -1rem;
+        right: -1rem;
+      }
     }
   }
 
@@ -111,8 +141,12 @@
     left: 0;
 
     @media only screen and (max-width: $bp-medium) {
-      width: 100%;
+      width: 20rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
       bottom: -2.5rem;
+      width: 100%;
     }
 
     &--wrapper {
