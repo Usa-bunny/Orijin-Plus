@@ -8,7 +8,7 @@
 
     "compile:sass": "sass src/sass/main.scss src/css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.comp.css -o src/css/style.prefix.css",
-    "compress:css": "sass src/css/style.prefix.css src/css/style.min.css --style=compressed",
+    "compress:css": "sass src/css/style.prefix.css src/css/style.css --style=compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "author": "usagi",

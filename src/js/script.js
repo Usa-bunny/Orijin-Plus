@@ -87,7 +87,7 @@ function waitNSlide(timer) {
     }, timer * 1000);
   });
 }
-waitNSlide(10);
+waitNSlide(1);
 
 function slider() {
   const cards = document.querySelectorAll(".testimonial__card");

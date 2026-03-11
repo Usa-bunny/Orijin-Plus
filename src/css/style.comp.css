@@ -500,6 +500,11 @@ body {
   align-items: center;
   background-image: linear-gradient(to bottom, rgb(247, 254, 255), #fff);
 }
+@media only screen and (max-width: 1200px) {
+  .hero {
+    margin-top: 2.5rem;
+  }
+}
 .hero__menu {
   margin-top: 2.5rem;
   text-align: center;
@@ -536,8 +541,8 @@ body {
 }
 .hero__product {
   position: absolute;
-  top: 2rem;
-  left: 7rem;
+  top: 7%;
+  left: 9%;
 }
 .hero__product--img {
   width: 24vw;
@@ -836,9 +841,26 @@ body {
   height: 75vh;
   overflow: hidden;
 }
+@media only screen and (max-width: 1200px) {
+  .preview__container {
+    padding: 0;
+    height: 70vh;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .preview__container {
+    transform: translateY(-5rem);
+    height: 60vh;
+  }
+}
 @media only screen and (max-width: 700px) {
   .preview__container {
-    padding-top: 2.5rem;
+    height: 55vh;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .preview__container {
+    height: 45vh;
   }
 }
 .preview__content {
